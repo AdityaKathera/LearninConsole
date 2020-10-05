@@ -281,6 +281,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+
 }
 
 svg {
@@ -2485,7 +2486,7 @@ fieldset {
   .btn-mobile,
   .header.uk-light .uk-navbar-toggle,
   .header.uk-light .uk-navbar a {
-    color: #343767 !important;
+    color: #ffffff !important;
   }
 }
 
@@ -5324,7 +5325,7 @@ ul.vidlist-3 {
   position: relative;
   color: #545e6f;
   transition: transform .2s ease-in-out;
-  background: white;
+  background: #eff2f7;
   border-radius: 9px;
   transition: 0.3s;
   position: relative;
@@ -5344,7 +5345,7 @@ ul.vidlist-3 {
 }
 
 .skill-card-title {
-  font-weight: 400;
+  font-weight: 4000;
   font-size: 17.5px;
   margin-top: 2px;
   margin-bottom: 5px;
