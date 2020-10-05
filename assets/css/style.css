@@ -1040,7 +1040,7 @@ fieldset {
 
 
 
-/* 
+/*
  ========================================================================
    Component: Container
  ========================================================================== */
@@ -1510,7 +1510,7 @@ fieldset {
 .admin-panel .dropdown-user-details::before {
   transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   font-family: "Feather-Icons";
-  content: "\e92e"; 
+  content: "\e92e";
   right:0;position:absolute;
 }
 .admin-panel .dropdown-user-details.uk-open::before {
@@ -1716,7 +1716,7 @@ fieldset {
 }
 
 /* ---------------------------------- */
-/* Page menu Navigation  
+/* Page menu Navigation
 ------------------------------------- */
 .page-menu ul {
   list-style: none;
@@ -2038,7 +2038,7 @@ fieldset {
 
 
 /* ---------------------------------- */
-/* Side Nav 
+/* Side Nav
 ------------------------------------- */
 
 .side-nav .side-nav-bg {
@@ -2342,7 +2342,7 @@ fieldset {
 
 
 /* ---------------------------------- */
-/* header widget menu icon 
+/* header widget menu icon
 ------------------------------------- */
 
 
@@ -3957,7 +3957,7 @@ ul.course-curriculum-list {
 
 
 /* ---------------------------------- */
-/* course card   
+/* course card
 ------------------------------------- */
 
 .course-card {
@@ -5212,7 +5212,7 @@ ul.course-video-list-2 li.uk-active a {
 }
 
 /* ---------------------------------- */
-/* course lesson  3  
+/* course lesson  3
 ------------------------------------- */
 
 .vidlist-3-content {
@@ -5587,7 +5587,7 @@ ul.vidlist-3 {
 .c-curriculum  .uk-accordion-title i{
   margin-right: 8px;
 }
-  
+
 ul.sec-list {
     margin: 0;
     padding: 0;
@@ -5602,7 +5602,7 @@ ul.sec-list {
    border-radius: 10px;
    justify-content: space-between;
 }
- 
+
 .sec-list-item * {
     display: flex;
     align-items: center;
@@ -5629,7 +5629,7 @@ ul.sec-list {
     color: #3e416d;
     font-size: 12px;
     border-radius: 3px;
-} 
+}
 .btn-act a:hover{
   background-color: #d0d3ff;
   color: #3e416d;
@@ -6249,7 +6249,7 @@ span.blog-post-info-tag {
 
 
 /* ---------------------------------- */
-/* profile 
+/* profile
 ------------------------------------- */
 
 .profile-container {
@@ -7068,8 +7068,8 @@ ul.dropdown-nav .menu-divider {
 /* ---------------------------------- */
 /* setting menu list in admin panel
 ------------------------------------- */
-.setting-menu { 
-  color: #474747; 
+.setting-menu {
+  color: #474747;
 }
 .setting-menu ul li { padding-left:0}
 .setting-menu ul li a , .setting-menu .uk-active.li a{
@@ -7086,7 +7086,7 @@ ul.dropdown-nav .menu-divider {
 @media (max-width:960px){
   .setting-menu ul li a {
     padding: 0px 15px;
-   } 
+   }
     .responsive-tab a i {
     margin-right: 5px;
    }
@@ -7400,7 +7400,7 @@ ul.dropdown-nav .menu-divider {
 
 
 /* ---------------------------------- */
-/*  embed video responsive 
+/*  embed video responsive
 ------------------------------------- */
 
 .embed-video {
@@ -7668,7 +7668,7 @@ span.item-tag {
 
 
 /* ---------------------------------- */
-/* animation   
+/* animation
 ------------------------------------- */
 
 .transition-3d-hover,
@@ -8104,7 +8104,7 @@ body #backtotop a {
   padding: 10px;
   padding-right: 0;
 }
- 
+
 
 
 /* ---------------------------------- */
@@ -8196,7 +8196,7 @@ body #backtotop a {
 
 
 /* ---------------------------------- */
-/* Background   
+/* Background
 ------------------------------------- */
 .bg-primary {
   background-color: #377dff !important;
@@ -8244,7 +8244,7 @@ body #backtotop a {
 
 
 /* ---------------------------------- */
-/* gradient Backgrounds  
+/* gradient Backgrounds
 ------------------------------------- */
 .bg-transparent {
   background-color: transparent !important;
@@ -8319,7 +8319,7 @@ body #backtotop a {
 
 
 /* ---------------------------------- */
-/* topic- Backgrounds  
+/* topic- Backgrounds
 ------------------------------------- */
 
 .topic-1 {
@@ -8365,7 +8365,7 @@ body #backtotop a {
 
 
 /* ---------------------------------- */
-/* Background Soft Colors  
+/* Background Soft Colors
 ------------------------------------- */
 .bg-soft-primary {
   background-color: rgba(55, 125, 255, 0.1) !important;
@@ -8440,7 +8440,7 @@ body #backtotop a {
 
 
 /* ---------------------------------- */
-/* button  
+/* button
 ------------------------------------- */
 
 .but ton {
@@ -8465,7 +8465,7 @@ body #backtotop a {
 
 
 /* ---------------------------------- */
-/* Button size  
+/* Button size
 ------------------------------------- */
 .button.small {
   font-size: 13px;
@@ -8490,7 +8490,7 @@ body #backtotop a {
 
 
 /* ---------------------------------- */
-/* delimiter  
+/* delimiter
 ------------------------------------- */
 .delimiter:before {
   left: 50%;
@@ -8650,7 +8650,7 @@ body #backtotop a {
   top: 1px;
   margin-right: 1px;
 }
- 
+
 
 /* List */
 .chats-inbox ul {
@@ -8720,7 +8720,7 @@ body #backtotop a {
   background-color: #38b653;
 }
 
-.status-icon, 
+.status-icon,
 .user-avatar:after {
   position: absolute;
   content: "";
@@ -11243,6 +11243,3 @@ select.selectpicker {
   width: calc(100% - 2px);
   left: 1px;
 }
-
-
-

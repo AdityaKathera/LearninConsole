@@ -963,7 +963,7 @@
   padding: 0.3rem;
 }
 
- 
+
 .table-bordered {
   border: 1px solid #dee2e6;
 }
@@ -1367,7 +1367,7 @@ select.form-control:focus::-ms-value {
 }
 
 .form-text ~ input {
-  margin-bottom: 0 !important 
+  margin-bottom: 0 !important
 }
 
 select.form-control[size], select.form-control[multiple] {
@@ -1721,7 +1721,7 @@ textarea.form-control {
 
 button { vertical-align: middle; }
 
- 
+
 input[type="button"],
 input[type="submit"],
 span.btn ,
@@ -1749,7 +1749,7 @@ span.btn ,
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
 }
 
- 
+
 @media screen and (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -1836,16 +1836,16 @@ fieldset:disabled a.btn {
 .btn-hover.text-primary:focus {
     color: #3f87f5 !important
 }
- 
+
  .btn-default{
    color:white;
-   background-color:#3e416d
+   background-color:#ffffff
  }
  .btn-default:hover{
    color:white;
    background-color:#484b77
  }
- 
+
 .btn-primary {
   color: #fff;
   background-color: #6e00ff;
@@ -3925,7 +3925,7 @@ input[type="button"].btn-block {
     transform: scale(1);
     opacity: 1
 }
- 
+
 
 
 .icon {
@@ -4776,10 +4776,10 @@ input[type="button"].btn-block {
   /* box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.12); */
 }
 .input-group input,
-.input-group input[type="text"], 
-.input-group input[type="password"], 
-.input-group input[type="email"], 
-.input-group input[type="number"], 
+.input-group input[type="text"],
+.input-group input[type="password"],
+.input-group input[type="email"],
+.input-group input[type="number"],
 .input-group textarea, select{
   box-shadow:none !important
 }
@@ -5922,7 +5922,7 @@ input[type="button"].btn-block {
     border-bottom: 1px solid #edf2f9;
 }
 
-.card-header * { 
+.card-header * {
     margin-bottom: 0
 }
 
@@ -6126,7 +6126,7 @@ input[type="button"].btn-block {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
- 
+
 .breadcrumb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8465,7 +8465,7 @@ button.bg-black:hover {
 .border-left {
     border-left: 1px solid #eff2f7 !important
 }
- 
+
 
 .border-0 {
   border: 0 !important;
@@ -8519,7 +8519,7 @@ button.bg-black:hover {
 .border-dark {
     border-color: #273444 !important
 }
- 
+
 .border-white {
     border-color: #fff !important
 }
@@ -11725,7 +11725,3 @@ Divider Sizes
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
-
-
-
