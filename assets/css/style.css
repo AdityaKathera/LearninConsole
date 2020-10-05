@@ -1324,7 +1324,7 @@ fieldset {
   padding: 105px 0;
   position: relative;
   background-size: cover;
-  height: 530px;
+  height: 650px;
   background-position: 0px -175px;
   align-items: center;
   justify-content: center;
@@ -1440,7 +1440,7 @@ fieldset {
 }
 
 .header .logo img {
-  width: 30px
+  width: 200px
 }
 
 .header .logo span {

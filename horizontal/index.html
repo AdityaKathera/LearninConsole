@@ -5,13 +5,10 @@
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Learnin Console</title>
+    <title>Courseplus Learning HTML Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Courseplus - Professional Learning Management HTML Template">
-
-    <!-- Favicon -->
-    <link href="../assets/images/favicon.png" rel="icon" type="image/png">
 
     <!-- CSS
     ================================================== -->
@@ -24,392 +21,781 @@
     ================================================== -->
     <link rel="stylesheet" href="../assets/css/icons.css">
 
-
-
-    <style>
-        .demo-hero {
-            background: linear-gradient(50deg, #273444, #272b44) !important;
-        }
-
-        .demo-card {
-            text-align: center;
-            color: #4a4a4a;
-            text-transform: capitalize;
-        }
-
-        .demo-card img {
-            border-radius: 8px;
-            box-shadow: 0px 2px 14px -3px #00000026;
-        }
-
-        .demo-card:hover.demo-card img {
-            transition: 0.4s ease all;
-            transform: translateY(-10px);
-            box-shadow: rgba(34, 48, 102, 0.1) 0px 18px 27.2px -5px;
-        }
-
-        .demo-card p {
-            margin-top: 15px;
-        }
-
-        .my-list {
-            margin: 0;
-            padding: 0;
-        }
-
-        .my-list li {
-            list-style: none;
-            display: inline-block;
-            padding: 8px 23px;
-            background: #f4fff7f0;
-            margin-bottom: 8px;
-            margin-left: 5px;
-            border-radius: 100px;
-        }
-
-        .my-list li:hover {
-            background: #f4fff7;
-            transition: 0.4s ease all;
-            transform: translateY(-2px);
-        }
-
-        .my-list li a {
-            color: #7b7b7b;
-        }
-
-        .my-list li a:hover {
-            color: #132763;
-        }
-    </style>
 </head>
 
 <body>
 
-    <div class="uk-section uk-text-center demo-hero uk-light">
-        <div class="uk-container mt-sm-5 mb-md-0 my-md">
-            <h1>Horizontal Layout</h1>
+    <!-- Wrapper -->
+    <div id="wrapper" class="bg-white">
+
+        <!-- Header Container
+        ================================================== -->
+        <header class="header header-horizontal header bg-grey uk-light">
+
+            <div class="container">
+                <nav uk-navbar>
+
+                    <!-- left Side Content -->
+                    <div class="uk-navbar-left">
+
+                        <!-- menu icon -->
+                        <span class="mmenu-trigger">
+                            <button class="hamburger hamburger--collapse" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </span>
+
+                        <!-- logo -->
+                        <a href="dashboard.html" class="logo">
+                            <img src="../assets/images/logofinal.png" alt="">
+                            <span> Courseplus</span>
+                        </a>
+
+                        <!-- Main Navigation -->
+
+                        <nav id="navigation">
+                            <ul id="responsive">
+                                <li><a href="#">Home</a> </li>
+                                <li><a href="#">Explore</a>
+                                    <ul class="dropdown-nav nav-large nav-courses">
+
+                                        <li><a href="course-card.html#">
+                                                <i class="icon-brand-js-square" style="color: #f7df1e;"></i> JavaScript
+                                            </a>
+                                        </li>
+                                        <li><a href="course-card.html">
+                                                <i class="icon-brand-node-js" style="color: green;"></i> NodeJS </a>
+                                        </li>
+                                        <li><a href="course-card.html">
+                                                <i class="icon-brand-angular" style="color:#dd0031"></i> Angular </a>
+                                        </li>
+                                        <li><a href="course-card.html">
+                                                <i class="icon-brand-css3-alt" style="color: blue;"></i> CSS </a></li>
+                                        <li><a href="course-card.html">
+                                                <i class="icon-brand-html5" style=" color:#f0653f"></i> HTML5 </a></li>
+                                        <li><a href="course-card.html">
+                                                <i class="icon-brand-react" style=" color:#67fcef"></i> React </a></li>
+                                        <li><a href="course-card.html">
+                                                <i class="icon-brand-vuejs" style="color: green;"></i> Vue JS </a></li>
+                                        <li><a href="course-card.html">
+                                                <i class="icon-brand-python" style="color: #b1b172;"></i> Python </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <li><a href="blog-1.html">About Us</a> </li>
+                                <li><a href="#">Pages</a>
+                                    <ul class="dropdown-nav">
+                                        <li><a href="page-pricing.html">Pricing</a> </li>
+                                        <li><a href="page-Privacy.html">Privacy</a></li>
+                                        <li><a href="page-term.html">Terms</a></li>
+                                        <li><a href="page-contact.html">Contact</a></li>
+                                        <li><a href="#">Account</a>
+                                            <ul class="dropdown-nav">
+                                                <li><a href="page-login.html">login</a></li>
+                                                <li><a href="page-register.html">register</a></li>
+                                                <li><a href="page-simple-login.html">Simple login</a></li>
+                                                <li><a href="page-simple-register.html">Simple register</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Development</a>
+                                            <ul class="dropdown-nav">
+                                                <li><a href="page-elements.html">Elements</a></li>
+                                                <li><a href="page-components.html">Components</a></li>
+                                                <li><a href="page-icons.html">Icons</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- Main Navigation / End -->
+
+                    </div>
+
+
+                    <!--  Right Side Content   -->
+
+                    <div class="uk-navbar-right">
+
+                        <div class="header-widget">
+
+                            <div class="searchbox uk-visible@s">
+
+                                <input class="uk-search-input" type="search" placeholder="Search...">
+                                <button class="btn-searchbox"> </button>
+
+                            </div>
+                            <!-- Search box dropdown -->
+                            <div uk-dropdown="pos: top;mode:click;animation: uk-animation-slide-bottom-small"
+                                class="dropdown-search">
+                                <div class="erh BR9 MIw"
+                                    style="top: -27px;position: absolute ; left: 24px;fill: currentColor;height: 24px;pointer-events: none;color: #f5f5f5;">
+                                    <svg width="22" height="22">
+                                        <path d="M0 24 L12 12 L24 24"></path>
+                                    </svg></div>
+                                <!-- User menu -->
+
+                                <ul class="dropdown-search-list">
+                                    <li class="list-title">
+                                        Recent Searches
+                                    </li>
+                                    <li>
+                                        <a href="course-intro.html">
+                                            Ultimate Web Designer And Developer Course</a>
+                                    </li>
+                                    <li><a href="course-intro.html">
+                                            The Complete Ruby on Rails Developer Course </a>
+                                    </li>
+                                    <li><a href="course-intro.html">
+                                            Bootstrap 4 From Scratch With 5 Real Projects </a>
+                                    </li>
+                                    <li> <a href="course-intro.html">
+                                            The Complete 2020 Web Development Bootcamp </a>
+                                    </li>
+                                    <li class="menu-divider">
+                                    <li><a href="course-intro.html">
+                                            Bootstrap 4 From Scratch With 5 Real Projects </a>
+                                    </li>
+                                    <li> <a href="course-intro.html">
+                                            The Complete 2020 Web Development Bootcamp </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div>
+                            <a href="../horizontal/page-login.html" class="btn btn-default">Login </a>
+                        </div>
+
+                        <div>
+                        <a href="../horizontal/page-register.html" class="btn btn-default">Register </a>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </nav>
+
+            </div>
+            <!-- container  / End -->
+
+        </header>
+
+        <!-- overlay seach on mobile-->
+        <div class="nav-overlay uk-navbar-left uk-position-relative uk-flex-1 bg-grey uk-light p-2" hidden
+            style="z-index: 10000;">
+            <div class="uk-navbar-item uk-width-expand" style="min-height: 60px;">
+                <form class="uk-search uk-search-navbar uk-width-1-1">
+                    <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                </form>
+            </div>
+            <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade"
+                href="#"></a>
         </div>
-    </div>
 
-    <div class="uk-section" id="demos">
-        <div class="uk-container">
 
-            <div class="uk-child-width-1-3@m uk-child-width-1-2@s uk-flex-center"
-                uk-scrollspy="target: > div; cls: uk-animation-slide-bottom-small; delay: 100" uk-grid>
 
-                <div>
-                    <a target="_blank" href="dashboard.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/dashboard.png" alt="">
-                            <p>Dashboard </p>
-                        </div>
-                    </a>
+        <div class="page-content">
+
+            <div class="home-hero" data-src="../assets/images/main_back.png" uk-img>
+                <div class="uk-width-1-1">
+                    <div class="page-content-inner uk-position-z-index">
+                        <h1>Learn HTML , CSS , iphone <br> Apps & More</h1>
+                        <h4 class="my-lg-4"> Learn how to build websites & apps <br> write a code or start a business
+                        </h4>
+                        <a href="#" class="btn btn-default">Free Trail</a>
+                    </div>
                 </div>
-                <div>
-                    <a target="_blank" href="course-path.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/course-path.png" alt="">
-                            <p>course path </p>
-                        </div>
-                    </a>
-                </div>
+            </div>
 
-                <div>
-                    <a target="_blank" href="course-path-level.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/course-path-levels.png" alt="">
-                            <p>course path level </p>
-                        </div>
-                    </a>
-                </div>
+            <!-- Content
+                ================================================== -->
 
+                <div class="section">
+                    <div class="page-content-inner">
 
-                <div>
-                    <a target="_blank" href="courses.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/course-grid.png" alt="">
-                            <p> courses as grid </p>
+                        <div class="section-small text-md-left text-center">
+                            <div class="uk-child-width-1-2@m uk-gird-large uk-flex-middle" uk-grid>
+                                <div>
+                                    <img src="../assets/images/main_left.png" alt="">
+                                </div>
+                                <div>
+                                    <h2>Learn to code anytime <br> and everywhere </h1>
+                                        <p> Get started with just your name and your email adress . It’s as simple <br> as
+                                            that
+                                            -- no payments or credit card information required. </p>
+                                        <a href="#" class="btn btn-soft-light"> Get started </a>
+                                </div>
+                            </div>
                         </div>
-                    </a>
+
+                    </div>
                 </div>
 
-                <div>
-                    <a target="_blank" href="courses-list.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/courses-list.png" alt="">
-                            <p> courses as list </p>
+                <div class="section-small delimiter-top">
+
+            <div class="page-content">
+
+                <div class="page-content-inner">
+
+                    <h2 class="mb-3" > Topic </h2>
+
+                    <div class="section-header">
+                        <div class="section-header-left">
+                            <h4> Choose a topic</h4>
                         </div>
-                    </a>
+                        <div class="section-header-right">
+                            <a href="#" class="see-all"> View all</a>
+                        </div>
+                    </div>
+
+                    <div class="uk-child-width-1-3@s uk-child-width-1-4@m" uk-grid>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-angular skill-card-icon" style="color:#dd0031"></i>
+                                <div>
+                                    <h2 class="skill-card-title">Cloud Computing</h2>
+                                    <p class="skill-card-subtitle"> 15 courses <span class="skill-card-bullet"></span> 3
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-js-square skill-card-icon" style="color:#f7df1e"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> Angular Courses</h2>
+                                    <p class="skill-card-subtitle"> 2 courses <span class="skill-card-bullet"></span> 13
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-html5 skill-card-icon" style="color:#f0653f"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> Angular Courses</h2>
+                                    <p class="skill-card-subtitle"> 3 courses <span class="skill-card-bullet"></span> 4
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-node-js skill-card-icon" style="color:#64d25d"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> NodeJS Courses</h2>
+                                    <p class="skill-card-subtitle"> 6 courses <span class="skill-card-bullet"></span> 4
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-css3-alt skill-card-icon" style="color:#0018ca"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> CSS3 Courses</h2>
+                                    <p class="skill-card-subtitle"> 5 courses <span class="skill-card-bullet"></span> 3
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-react skill-card-icon" style="color:#74defb"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> react Courses</h2>
+                                    <p class="skill-card-subtitle"> 12 courses <span class="skill-card-bullet"></span> 2
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-python skill-card-icon" style="color:#154f5f"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> Python Courses</h2>
+                                    <p class="skill-card-subtitle"> 12 courses <span class="skill-card-bullet"></span> 4
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-vuejs skill-card-icon" style="color:#0bd36f"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> Vuejs Courses</h2>
+                                    <p class="skill-card-subtitle"> 5 courses <span class="skill-card-bullet"></span> 3
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-angular skill-card-icon" style="color:#dd0031"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> Java Courses</h2>
+                                    <p class="skill-card-subtitle"> 5 courses <span class="skill-card-bullet"></span> 3
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-js-square skill-card-icon" style="color:#f7df1e"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> Angular Courses</h2>
+                                    <p class="skill-card-subtitle"> 5 courses <span class="skill-card-bullet"></span> 3
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-html5 skill-card-icon" style="color:#f0653f"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> Angular Courses</h2>
+                                    <p class="skill-card-subtitle"> 5 courses <span class="skill-card-bullet"></span> 3
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html" class="skill-card">
+                                <i class="icon-brand-node-js skill-card-icon" style="color:#64d25d"></i>
+                                <div>
+                                    <h2 class="skill-card-title"> NodeJS Courses</h2>
+                                    <p class="skill-card-subtitle"> 5 courses <span class="skill-card-bullet"></span> 3
+                                        bundles
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h4 class="mt-lg-7 mt-4">Popular Topics</h4>
+                    <div class="uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
+                        <div>
+                            <a href="course-path-level.html">
+                                <div class="course-path-card">
+                                    <img src="../assets/images/course/p-1.png" alt="">
+                                    <div class="course-path-card-contents">
+                                        <h3> Amazon Web Services </h3>
+                                        <p> JavaScript is how you build interactivity on the web ...
+                                        </p>
+                                        <div class="course-progressbar mt-3">
+                                            <div class="course-progressbar-filler" style="width:25%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="course-path-card-footer">
+                                        <h5> <i class="icon-feather-film mr-1"></i> 24 Lectures </h5>
+                                        <div>
+                                            <h5>
+                                                <i class="icon-feather-clock mr-1"></i>
+                                                55 Hours </h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html">
+                                <div class="course-path-card">
+                                    <img src="../assets/images/course/p-2.png" alt="">
+                                    <div class="course-path-card-contents">
+                                        <h3> CSS3 Basics </h3>
+                                        <p> Lorem ipsum adipiscing elit, sed do eiusmod tempor..
+                                        </p>
+                                        <div class="course-progressbar mt-3">
+                                            <div class="course-progressbar-filler" style="width:25%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="course-path-card-footer">
+                                        <h5> <i class="icon-feather-film mr-1"></i> 24 Lectures </h5>
+                                        <div>
+                                            <h5>
+                                                <i class="icon-feather-clock mr-1"></i>
+                                                55 Hours </h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html">
+                                <div class="course-path-card">
+                                    <img src="../assets/images/course/p-3.png" alt="">
+                                    <div class="course-path-card-contents">
+                                        <h3> HTML Introduction </h3>
+                                        <p>HTML is the building blocks of the web. It gives pages ..
+                                        </p>
+                                        <div class="course-progressbar mt-3">
+                                            <div class="course-progressbar-filler" style="width:25%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="course-path-card-footer">
+                                        <h5> <i class="icon-feather-film mr-1"></i> 24 Lectures </h5>
+                                        <div>
+                                            <h5>
+                                                <i class="icon-feather-clock mr-1"></i>
+                                                55 Hours </h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="course-path-level.html">
+                                <div class="course-path-card">
+                                    <img src="../assets/images/course/p-1.png" alt="">
+                                    <div class="course-path-card-contents">
+                                        <h3> JavaScript </h3>
+                                        <p> JavaScript is how you build interactivity on the web ...
+                                        </p>
+                                        <div class="course-progressbar mt-3">
+                                            <div class="course-progressbar-filler" style="width:25%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="course-path-card-footer">
+                                        <h5> <i class="icon-feather-film mr-1"></i> 24 Lectures </h5>
+                                        <div>
+                                            <h5>
+                                                <i class="icon-feather-clock mr-1"></i>
+                                                55 Hours </h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div>
-                    <a target="_blank" href="course-intro.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/course-intro-1.png" alt="">
-                            <p> course intro 1 </p>
+
+            </div><br><br>
+            <div class="section-small delimiter-top">
+
+
+
+            <!-- Content
+        ================================================== -->
+
+
+
+                <div class="container-small">
+
+                    <div class="text-center mb-5">
+                        <h3> Check out our newest </h3>
+                        <h5> With our growing catalog of over 30 Nanodegree programs from beginner to advanced</h5>
+                    </div>
+                    <div class="course-grid-slider mt-lg-5" uk-slider="finite: true">
+                        <div class="uk-slider-container pb-3">
+                            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
+                                <li>
+                                    <a href="course-intro.html">
+                                        <div class="course-card">
+                                            <div class="course-card-thumbnail ">
+                                                <img src="../assets/images/course/2.png">
+                                                <span class="play-button-trigger"></span>
+                                            </div>
+                                            <div class="course-card-body">
+                                                <div class="course-card-info">
+                                                    <div>
+                                                        <span class="catagroy">Angular</span>
+                                                    </div>
+                                                    <div>
+                                                        <i class="icon-feather-bookmark icon-small"></i>
+                                                    </div>
+                                                </div>
+                                                <h4>Learn Angular Fundamentals </h4>
+                                                <p> Learn how to build and launch React web applications using .. </p>
+                                                <div class="course-card-footer">
+                                                    <h5> <i class="icon-feather-film"></i> 12 Lectures </h5>
+                                                    <h5> <i class="icon-feather-clock"></i> 64 Hours </h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="course-intro.html">
+                                        <div class="course-card">
+                                            <div class="course-card-thumbnail ">
+                                                <img src="../assets/images/course/3.png">
+                                                <span class="play-button-trigger"></span>
+                                            </div>
+                                            <div class="course-card-body">
+                                                <div class="course-card-info">
+                                                    <div>
+                                                        <span class="catagroy">JavaScript</span>
+                                                    </div>
+                                                    <div>
+                                                        <i class="icon-feather-bookmark icon-small"></i>
+                                                    </div>
+                                                </div>
+                                                <h4>The Complete JavaScript </h4>
+                                                <p> JavaScript is how you build interactivity on the web page... </p>
+                                                <div class="course-card-footer">
+                                                    <h5> <i class="icon-feather-film"></i> 14 Lectures </h5>
+                                                    <h5> <i class="icon-feather-clock"></i> 55 Hours </h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="course-intro.html">
+                                        <div class="course-card">
+                                            <div class="course-card-thumbnail ">
+                                                <img src="../assets/images/course/1.png">
+                                                <span class="play-button-trigger"></span>
+                                            </div>
+                                            <div class="course-card-body">
+                                                <div class="course-card-info">
+                                                    <div>
+                                                        <span class="catagroy">HTML</span>
+                                                    </div>
+                                                    <div>
+                                                        <i class="icon-feather-bookmark icon-small"></i>
+                                                    </div>
+                                                </div>
+
+                                                <h4>Ultimate Web Developer Course </h4>
+                                                <p> HTML is the building blocks of the web. It gives pages structure ..
+                                                </p>
+
+                                                <div class="course-card-footer">
+                                                    <h5> <i class="icon-feather-film"></i> 33 Lectures </h5>
+                                                    <h5> <i class="icon-feather-clock"></i> 26 Hours </h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="course-intro.html">
+                                        <div class="course-card">
+                                            <div class="course-card-thumbnail ">
+                                                <img src="../assets/images/course/5.png">
+                                                <span class="play-button-trigger"></span>
+                                            </div>
+                                            <div class="course-card-body">
+                                                <div class="course-card-info">
+                                                    <div>
+                                                        <span class="catagroy">HTML</span>
+                                                    </div>
+                                                    <div>
+                                                        <i class="icon-feather-bookmark icon-small"></i>
+                                                    </div>
+                                                </div>
+
+                                                <h4>Ultimate Web Developer Course </h4>
+                                                <p> HTML is the building blocks of the web. It gives pages structure ..
+                                                </p>
+
+                                                <div class="course-card-footer">
+                                                    <h5> <i class="icon-feather-film"></i> 34 Lectures </h5>
+                                                    <h5> <i class="icon-feather-clock"></i> 54 Hours </h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover slidenav-prev" href="#"
+                                uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover slidenav-next" href="#"
+                                uk-slider-item="next"></a>
+
                         </div>
-                    </a>
+                    </div>
+
+                    <div class="text-center">
+                        <a href="#" class="btn btn-soft-light btn-small btn-circle"> View More Courses</a>
+                    </div>
                 </div>
-                <div>
-                    <a target="_blank" href="course-intro-2.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/course-intro-2.png" alt="">
-                            <p> course intro 2</p>
+            </div>
+
+
+
+            <div class="section bg-white">
+                <div class="container-small">
+                    <h2 class="text-center my-lg-6"> Try Courseplus free for 14 days </h2>
+                    <form class="uk-grid-small d-flex align-items-end" uk-grid>
+                        <div class="uk-width-1-3@s">
+                            <div class="uk-form-label">Email </div>
+                            <input class="uk-input" type="text" placeholder="Enter your email address">
                         </div>
-                    </a>
-                </div>
-                <div>
-                    <a target="_blank" href="course-intro-3.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/course-intro-3.png" alt="">
-                            <p> course intro 3 </p>
+                        <div class="uk-width-1-3@s">
+                            <div class="uk-form-label">Password </div>
+                            <input class="uk-input" type="password" placeholder="******">
                         </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="takecouse.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/takecourse-1.png" alt="">
-                            <p> Course lesson 1 </p>
+                        <div class="uk-width-1-3@s">
+                            <button class="btn  btn-light btn-lg"> Start free trail </button>
                         </div>
-                    </a>
-                </div>
+                        <div class="uk-width-1-1@s">
+                            <label>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" id="customCheck1" type="checkbox">
+                                    <label class="custom-control-label" for="customCheck1">
+                                        <span class="checkmark uk-text-small"> I agree to the </span>
+                                <a href="pages-terms.html" target="_blank"
+                                    class="uk-text-bold uk-text-small uk-link-reset">
+                                    Terms and Conditions </a>
 
-                <div>
-                    <a target="_blank" href="takecouse-2.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/takecourse-2.png" alt="">
-                            <p> Course lesson 2 </p>
+                                    </label>
+                                </div>
+
+
+                            </label>
                         </div>
-                    </a>
+                    </form>
                 </div>
-
-
-                <div>
-                    <a target="_blank" href="takecouse-3.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/takecourse-3.png" alt="">
-                            <p> course lesson 3</p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="book.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/book.png" alt="">
-                            <p> Book</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a target="_blank" href="book-description.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/book-description.png" alt="">
-                            <p> book desciption </p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="blog-1.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/blog-1.png" alt="">
-                            <p> blog one </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="blog-2.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/blog-2.png" alt="">
-                            <p> blog two </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="blog-card.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/blog-card.png" alt="">
-                            <p> blog card </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="blog-single.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/blog-single.png" alt="">
-                            <p>blog single 1 </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="profile-1.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/profile-1.png" alt="">
-                            <p> profile 1</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="profile-2.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/profile-2.png" alt="">
-                            <p> profile 2 </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="user-profile-edit.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/profile-edit.png" alt="">
-                            <p> profile edit </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="page-pricing.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/page-pricing.png" alt="">
-                            <p> page pricing </p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="page-Privacy.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/Privacy.png" alt="">
-                            <p> page Privacy </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="page-term.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/page-term.png" alt="">
-                            <p> page term</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="page-contact.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/page-contact.png" alt="">
-                            <p> page Contact </p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="development-elements.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/development-elements.png" alt="">
-                            <p> elements </p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a target="_blank" href="development-compounents.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/development-compounents.png" alt="">
-                            <p> compounents </p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a target="_blank" href="development-icons.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/development-icons.png" alt="">
-                            <p> Icons </p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="page-contact.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/page-maintence.png" alt="">
-                            <p> maintence </p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a target="_blank" href="specialty-comming-soon.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/page-comming-soon.png" alt="">
-                            <p> comming soon</p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="form-login.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/form-login.png" alt="">
-                            <p> login </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="form-register.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/form-register.png" alt="">
-                            <p> Register </p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div>
-                    <a target="_blank" href="form-modern-login.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/form-modurn-login.png" alt="">
-                            <p> simple login </p>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a target="_blank" href="form-modern-singup.html">
-                        <div class="demo-card">
-                            <img src="../assets/images/demos/horizontal/form-modurn-login.png" alt="">
-                            <p> simple register </p>
-                        </div>
-                    </a>
-                </div>
-
             </div>
 
         </div>
+
+        <!-- footer
+        ================================================== -->
+        <div class="footer">
+            <div class="container">
+                <div uk-grid>
+                    <div class="uk-width-1-3@m">
+                      <a href="dashboard.html" class="logo">
+                          <img src="../assets/images/logofinal.png" alt="">
+                      </a><br><br>
+
+                    </div>
+                    <div class="uk-width-expand@s uk-width-1-2">
+                        <div class="footer-links pl-lg-8">
+                            <h5>Explore </h5>
+                            <ul>
+                                <li><a href="course-card.html"> Courses </a></li>
+                                <li><a href="course-path.html"> Track </a></li>
+                                <li><a href="blog-card.html"> Blog </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@s uk-width-1-2">
+                        <div class="footer-links pl-lg-8">
+                            <h5> Account </h5>
+                            <ul>
+                                <li><a href="profile-1.html"> Profile </a></li>
+                                <li><a href="#"> Settings </a></li>
+                                <li><a href="#"> Projects </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@s uk-width-1-2">
+                        <div class="footer-links pl-lg-8">
+                            <h5> Resources</h5>
+                            <ul>
+                                <li><a href="#"> Contact </a></li>
+                                <li><a href="page-Privacy.html"> Privacy Policy </a></li>
+                                <li><a href="page-term.html"> Terms of Use </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="uk-grid-collapse" uk-grid>
+                    <div class="uk-width-expand@s uk-first-column">
+                        <p>© 2020 <strong>Learninconsole</strong>. All Rights Reserved. </p>
+                    </div>
+                    <div class="uk-width-auto@s">
+                        <nav class="footer-nav-icon">
+                            <ul>
+                                <li><a href="#"><i class="icon-brand-facebook"></i></a></li>
+                                <li><a href="#"><i class="icon-brand-dribbble"></i></a></li>
+                                <li><a href="#"><i class="icon-brand-youtube"></i></a></li>
+                                <li><a href="#"><i class="icon-brand-twitter"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+    <!-- For Night mode -->
+    <script>
+        (function (window, document, undefined) {
+            'use strict';
+            if (!('localStorage' in window)) return;
+            var nightMode = localStorage.getItem('gmtNightMode');
+            if (nightMode) {
+                document.documentElement.className += ' night-mode';
+            }
+        })(window, document);
+
+
+        (function (window, document, undefined) {
+
+            'use strict';
+
+            // Feature test
+            if (!('localStorage' in window)) return;
+
+            // Get our newly insert toggle
+            var nightMode = document.querySelector('#night-mode');
+            if (!nightMode) return;
+
+            // When clicked, toggle night mode on or off
+            nightMode.addEventListener('click', function (event) {
+                event.preventDefault();
+                document.documentElement.classList.toggle('night-mode');
+                if (document.documentElement.classList.contains('night-mode')) {
+                    localStorage.setItem('gmtNightMode', true);
+                    return;
+                }
+                localStorage.removeItem('gmtNightMode');
+            }, false);
+
+        })(window, document);
+    </script>
 
 
     <!-- javaScripts
-    ================================================== -->
+                ================================================== -->
     <script src="../assets/js/framework.js"></script>
     <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/mmenu.min.js"></script>
     <script src="../assets/js/simplebar.js"></script>
     <script src="../assets/js/main.js"></script>
-
 
 </body>
 
