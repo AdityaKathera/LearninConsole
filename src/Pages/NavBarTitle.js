@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MainContent from "../Components/MainContent";
 import "../assets/css/bootstrap.css";
 import "../assets/css/night-mode.css";
 import "../assets/css/style.css";
@@ -23,7 +24,7 @@ export default class NavBarTitle extends Component {
               </span>
 
               {/* <!-- logo --> */}
-              <a href="dashboard.html" className="logo">
+              <a href="./" className="logo">
                   <img src={logo1} alt="" width="300" height="50"/>
               </a>
               {/* <!-- spacing --> */}
@@ -216,13 +217,13 @@ export default class NavBarTitle extends Component {
                
                 {/* <!-- login --> */}
                 
-                <a href="#" className="btn btn-soft-light" style={{color:'#3e416d'}}>
+                <a href="/Login" className="btn btn-soft-light" style={{color:'#3e416d'}}>
                 Log in
                 </a> &nbsp; &nbsp; 
         
 
                 {/* <!-- Signup --> */}
-                <a href="#" className="btn btn-soft-light" style={{color:'#3e416d'}}>
+                <a href="/Signup" className="btn btn-soft-light" style={{color:'#3e416d'}}>
                 Sign up
                 </a>
 

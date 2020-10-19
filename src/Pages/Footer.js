@@ -17,7 +17,7 @@ export default class Footer extends Component {
               }}
             >
               <div className="uk-width-1-3@m">
-                <a href="dashboard.html" className="logo"><br></br><br></br>
+                <a href="./" className="logo"><br></br><br></br>
                   <img src={logo2} alt="" width="300" height="50"/>
                 </a>
                 <br />
