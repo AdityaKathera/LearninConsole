@@ -4,8 +4,8 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        <div class="footer">
-          <div class="container">
+        <div className="footer">
+          <div className="container">
             <div
               style={{
                 display: "flex",
@@ -16,15 +16,15 @@ export default class Footer extends Component {
                 position: "unset",
               }}
             >
-              <div class="uk-width-1-3@m">
-                <a href="dashboard.html" class="logo"><br></br><br></br>
+              <div className="uk-width-1-3@m">
+                <a href="dashboard.html" className="logo"><br></br><br></br>
                   <img src={logo2} alt="" width="300" height="50"/>
                 </a>
                 <br />
                 <br />
               </div>
-              <div class="uk-width-expand@s uk-width-1-2">
-                <div class="footer-links pl-lg-8">
+              <div className="uk-width-expand@s uk-width-1-2">
+                <div className="footer-links pl-lg-8">
                   <h5>Explore </h5>
                   <ul>
                     <li>
@@ -39,8 +39,8 @@ export default class Footer extends Component {
                   </ul>
                 </div>
               </div>
-              <div class="uk-width-expand@s uk-width-1-2">
-                <div class="footer-links pl-lg-8">
+              <div className="uk-width-expand@s uk-width-1-2">
+                <div className="footer-links pl-lg-8">
                   <h5> Account </h5>
                   <ul>
                     <li>
@@ -55,8 +55,8 @@ export default class Footer extends Component {
                   </ul>
                 </div>
               </div>
-              <div class="uk-width-expand@s uk-width-1-2">
-                <div class="footer-links pl-lg-8">
+              <div className="uk-width-expand@s uk-width-1-2">
+                <div className="footer-links pl-lg-8">
                   <h5> Resources</h5>
                   <ul>
                     <li>
@@ -74,7 +74,7 @@ export default class Footer extends Component {
             </div>
             <hr />
             <div
-              class="uk-grid-collapse"
+              className="uk-grid-collapse"
               style={{
                 display: "flex",
                 flexWrap: "wrap",
@@ -84,32 +84,32 @@ export default class Footer extends Component {
                 position: "unset",
               }}
             >
-              <div class="uk-width-expand@s uk-first-column">
+              <div className="uk-width-expand@s uk-first-column">
                 <p>
                   © 2020 <strong>Learninconsole</strong>. All Rights Reserved.
                 </p>
               </div>
-              <div class="uk-width-auto@s">
-                <nav class="footer-nav-icon">
+              <div className="uk-width-auto@s">
+                <nav className="footer-nav-icon">
                   <ul>
                     <li>
                       <a href="#">
-                        <i class="icon-brand-facebook"></i>
+                        <i className="icon-brand-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-brand-dribbble"></i>
+                        <i className="icon-brand-dribbble"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-brand-youtube"></i>
+                        <i className="icon-brand-youtube"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-brand-twitter"></i>
+                        <i className="icon-brand-twitter"></i>
                       </a>
                     </li>
                   </ul>

@@ -5,12 +5,12 @@ export default class InstructorInfo extends Component {
   render() {
     return (
       <>
-        <div class="section-small delimiter-top">
-          <div class="section">
-            <div class="page-content-inner">
-              <div class="section-small text-md-right text-center">
+        <div className="section-small delimiter-top">
+          <div className="section">
+            <div className="page-content-inner">
+              <div className="section-small text-md-right text-center">
                 <div
-                  class="uk-child-width-1-2@m uk-gird-large uk-flex-middle"
+                  className="uk-child-width-1-2@m uk-gird-large uk-flex-middle"
                   style={{
                     display: "flex",
                     flexWrap: "wrap",
@@ -25,7 +25,7 @@ export default class InstructorInfo extends Component {
                     <p>
                       Get started with just your name and your email address.
                     </p>
-                    <a href="#" class="btn btn-soft-light">
+                    <a href="#" className="btn btn-soft-light">
                       Get started
                     </a>
                   </div>

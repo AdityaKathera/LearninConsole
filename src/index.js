@@ -4,11 +4,6 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
-import Routes from "./Routes.js";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-// import { createBrowserHistory } from 'history'
-// const browserHistory = createBrowserHistory();
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

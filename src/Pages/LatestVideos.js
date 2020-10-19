@@ -22,7 +22,7 @@ export default class LatestVideos extends Component {
                 <ul className="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
                   <li>
                     <a href="course-intro.html">
-                      <div class="course-card">
+                      <div className="course-card">
                         <div className="course-card-thumbnail ">
                           <img src={angular} />
                           <span className="play-button-trigger"></span>
@@ -169,8 +169,8 @@ export default class LatestVideos extends Component {
                 ></a>
               </div>
             </div>
-            <div class="text-center">
-              <a href="#" class="btn btn-soft-light btn-small btn-circle">
+            <div className="text-center">
+              <a href="#" className="btn btn-soft-light btn-small btn-circle">
                 View More Courses
               </a>
             </div>
