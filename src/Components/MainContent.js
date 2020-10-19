@@ -1,13 +1,14 @@
+import { Carousel } from "antd";
 import React, { Component } from "react";
 import Category from "../Pages/Category";
-import Introduction from "../Pages/Introduction";
+import Caro from "../Pages/Caro";
 import LearnMore from "../Pages/LearnMore";
 
 export default class MainContent extends Component {
   render() {
     return (
       <div className="page-content">
-        <Introduction />
+        <Caro />
         <LearnMore />
         <Category />
       </div>

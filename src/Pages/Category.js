@@ -12,7 +12,7 @@ export default class Category extends Component {
           <div className="page-content">
             <div className="page-content-inner">
               <h2 className="mb-3" align="center">
-                Choose Your Course Catagory
+                Choose Your Course Category
               </h2>
 
               <div className="section-header"></div>

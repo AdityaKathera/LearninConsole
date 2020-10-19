@@ -1,10 +1,12 @@
+import { Carousel } from "antd";
 import React, { Component } from "react";
 import main_back from "../images/main_back.png";
+
 
 export default class Introduction extends Component {
   render() {
     return (
-      <div>
+     <div>
         <div
           className="home-hero"
           uk-img={1}
@@ -17,7 +19,6 @@ export default class Introduction extends Component {
                 Learn HTML , CSS , iphone <br /> Apps & More
               </h1>
               <h4 className="my-lg-4">
-                {" "}
                 Learn how to build websites & apps <br /> write a code or start
                 a business
               </h4>

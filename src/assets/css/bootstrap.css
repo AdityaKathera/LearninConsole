@@ -1846,6 +1846,11 @@ fieldset:disabled a.btn {
    background-color:#484b77
  }
 
+ .btn-navbar{
+   color:white;
+   background-color:white
+}
+
 .btn-primary {
   color: #fff;
   background-color: #6e00ff;

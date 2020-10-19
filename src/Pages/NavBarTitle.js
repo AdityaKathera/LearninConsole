@@ -3,6 +3,8 @@ import "../assets/css/bootstrap.css";
 import "../assets/css/night-mode.css";
 import "../assets/css/style.css";
 import "../assets/css/framework.css";
+import logo1 from '../images/logo1.png'
+
 export default class NavBarTitle extends Component {
   render() {
     return (
@@ -22,9 +24,11 @@ export default class NavBarTitle extends Component {
 
               {/* <!-- logo --> */}
               <a href="dashboard.html" className="logo">
-                <h3> Learninconsole</h3>
-                <img src="../assets/images/logofina2.png" alt="" />
+                  <img src={logo1} alt="" width="300" height="50"/>
               </a>
+              {/* <!-- spacing --> */}
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
               <nav id="navigation">
                 <ul id="responsive">
@@ -163,24 +167,82 @@ export default class NavBarTitle extends Component {
                   </li>
                 </ul>
               </nav>
+                
+
+                {/* <!-- spacing --> */}
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                {/* <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                          <i class="fas fa-user prefix grey-text"></i>
+                          <input type="text" id="orangeForm-name" class="form-control validate" />
+                          <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+                        </div>
+                        <div class="md-form mb-5">
+                          <i class="fas fa-envelope prefix grey-text"></i>
+                          <input type="email" id="orangeForm-email" class="form-control validate" />
+                          <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+                        </div>
+
+                        <div class="md-form mb-4">
+                          <i class="fas fa-lock prefix grey-text"></i>
+                          <input type="password" id="orangeForm-pass" class="form-control validate" />
+                          <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-deep-orange">Sign up</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center">
+                  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch
+                    Modal Register Form</a>
+                </div> */}
+               
+                {/* <!-- login --> */}
+                
+                <a href="#" className="btn btn-soft-light" style={{color:'#3e416d'}}>
+                Log in
+                </a> &nbsp; &nbsp; 
+        
+
+                {/* <!-- Signup --> */}
+                <a href="#" className="btn btn-soft-light" style={{color:'#3e416d'}}>
+                Sign up
+                </a>
 
               {/* <!-- Main Navigation / End --> */}
             </div>
-
+            
             {/* <!--  Right Side Content   --> */}
 
             {/* <div className="uk-navbar-right">
               <div className="header-widget">
-                <div className="searchbox uk-visible@s">
+                <div className="searchbox uk-visible@s" style={{display:'flex'}}>
                   <input
                     className="uk-search-input"
                     type="search"
                     placeholder="Search..."
                   />
                   <button className="btn-searchbox"> </button>
-                </div>
+                </div> */}
 
-                <div
+                {/* <div
                   uk-dropdown="pos: top;mode:click;animation: uk-animation-slide-bottom-small"
                   className="dropdown-search"
                 >
@@ -238,8 +300,8 @@ export default class NavBarTitle extends Component {
                       </li>
                     </li>
                   </ul>
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
             </div> */}
           </nav>
         </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logofinal from '../images/logofinal.png'
+import logo2 from '../images/logo2.png'
 export default class Footer extends Component {
   render() {
     return (
@@ -17,8 +17,8 @@ export default class Footer extends Component {
               }}
             >
               <div class="uk-width-1-3@m">
-                <a href="dashboard.html" class="logo">
-                  <img src={logofinal} alt="" />
+                <a href="dashboard.html" class="logo"><br></br><br></br>
+                  <img src={logo2} alt="" width="300" height="50"/>
                 </a>
                 <br />
                 <br />
