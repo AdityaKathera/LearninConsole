@@ -20,142 +20,40 @@ export default class LatestVideos extends Component {
             >
               <div className="uk-slider-container pb-3">
                 <ul className="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
+                  {this.props.latestCourses?.map(course =>
                   <li>
-                    <a href="course-intro.html">
-                      <div className="course-card">
-                        <div className="course-card-thumbnail ">
-                          <img src={angular} />
-                          <span className="play-button-trigger"></span>
+                  {/* <a href="course-intro.html"> */}
+                    <div className="course-card">
+                      <div className="course-card-thumbnail ">
+                        <img src={angular} alt={course.imageUrl} />
+                        <span className="play-button-trigger"></span>
+                      </div>
+                      <div className="course-card-body">
+                        <div className="course-card-info">
+                          <div>
+                            <span className="catagroy">{course.courseName}</span>
+                          </div>
+                          <div>
+                            <i className="icon-feather-bookmark icon-small"></i>
+                          </div>
                         </div>
-                        <div className="course-card-body">
-                          <div className="course-card-info">
-                            <div>
-                              <span className="catagroy">Angular</span>
-                            </div>
-                            <div>
-                              <i className="icon-feather-bookmark icon-small"></i>
-                            </div>
-                          </div>
-                          <h4>Learn Angular Fundamentals </h4>
-                          <p>
-                            Learn how to build and launch React web applications
-                            using ..
-                          </p>
-                          <div className="course-card-footer">
-                            <h5>
-                              <i className="icon-feather-film"></i> 12 Lectures
-                            </h5>
-                            <h5>
-                              <i className="icon-feather-clock"></i> 64 Hours
-                            </h5>
-                          </div>
+                        <h4>{course.title}</h4>
+                        <p>
+                          {course.description}
+                        </p>
+                        <div className="course-card-footer">
+                          <h5>
+                            <i className="icon-feather-film"></i> {course.lectureCount} Lectures
+                          </h5>
+                          <h5>
+                            <i className="icon-feather-clock"></i> {course.totalHours} Hours
+                          </h5>
                         </div>
                       </div>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="course-intro.html">
-                      <div className="course-card">
-                        <div className="course-card-thumbnail ">
-                          <img src={angular} />
-                          <span className="play-button-trigger"></span>
-                        </div>
-                        <div className="course-card-body">
-                          <div className="course-card-info">
-                            <div>
-                              <span className="catagroy">JavaScript</span>
-                            </div>
-                            <div>
-                              <i className="icon-feather-bookmark icon-small"></i>
-                            </div>
-                          </div>
-                          <h4>The Complete JavaScript </h4>
-                          <p>
-                            JavaScript is how you build interactivity on the web
-                            page...
-                          </p>
-                          <div className="course-card-footer">
-                            <h5>
-                              <i className="icon-feather-film"></i> 14 Lectures
-                            </h5>
-                            <h5>
-                              <i className="icon-feather-clock"></i> 55 Hours
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="course-intro.html">
-                      <div className="course-card">
-                        <div className="course-card-thumbnail ">
-                          <img src={angular} />
-                          <span className="play-button-trigger"></span>
-                        </div>
-                        <div className="course-card-body">
-                          <div className="course-card-info">
-                            <div>
-                              <span className="catagroy">HTML</span>
-                            </div>
-                            <div>
-                              <i className="icon-feather-bookmark icon-small"></i>
-                            </div>
-                          </div>
-
-                          <h4>Ultimate Web Developer Course </h4>
-                          <p>
-                            HTML is the building blocks of the web. It gives
-                            pages structure ..
-                          </p>
-                          <div className="course-card-footer">
-                            <h5>
-                              <i className="icon-feather-film"></i> 33 Lectures
-                            </h5>
-                            <h5>
-                              <i className="icon-feather-clock"></i> 26 Hours
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="course-intro.html">
-                      <div className="course-card">
-                        <div className="course-card-thumbnail ">
-                          <img src={angular} />
-                          <span className="play-button-trigger"></span>
-                        </div>
-                        <div className="course-card-body">
-                          <div className="course-card-info">
-                            <div>
-                              <span className="catagroy">HTML</span>
-                            </div>
-                            <div>
-                              <i className="icon-feather-bookmark icon-small"></i>
-                            </div>
-                          </div>
-
-                          <h4>Ultimate Web Developer Course </h4>
-                          <p>
-                            HTML is the building blocks of the web. It gives
-                            pages structure ..
-                          </p>
-
-                          <div className="course-card-footer">
-                            <h5>
-                              <i className="icon-feather-film"></i> 34 Lectures
-                            </h5>
-                            <h5>
-                              <i className="icon-feather-clock"></i> 54 Hours
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
+                    </div>
+                  {/* </a> */}
+                </li>
+                )}
                 </ul>
                 <a
                   className="uk-position-center-left uk-position-small uk-hidden-hover slidenav-prev"

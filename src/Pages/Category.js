@@ -4,6 +4,8 @@ import PopularCourses from "./PopularCourses";
 import LatestVideos from "./LatestVideos";
 import InstructorInfo from "./InstructorInfo";
 import Footer from "./Footer";
+import { courseCategory, latestCourses, popularCourses } from '../mockdata';
+
 export default class Category extends Component {
   render() {
     return (
@@ -16,14 +18,16 @@ export default class Category extends Component {
               </h2>
 
               <div className="section-header"></div>
-              <CourseCategory />
+              <CourseCategory
+                courseCategory={courseCategory}
+              />
               <br />
               <br />
-              <PopularCourses />
+              <PopularCourses popularCourses={popularCourses} />
             </div>
             <br />
             <br />
-            <LatestVideos />
+            <LatestVideos latestCourses={latestCourses}/>
             <InstructorInfo />
             <Footer />
           </div>
