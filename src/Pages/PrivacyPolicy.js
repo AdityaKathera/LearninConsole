@@ -23,7 +23,7 @@ export default class PrivacyPolicy extends Component {
                             <ul>
                                 <li class="uk-active"><a href="#"> Privacy </a></li>
                                 <li><a href="#"> Careers</a></li>
-                                <li><a href="#"> Terms &amp; Conditions</a></li>
+                                <li><a href="#"> Terms &amp; Condition</a></li>
                                 <li><a href="#"> Privacy</a></li>
                                 <li><a href="#"> Cookies</a></li>
                                 <li><a href="#"> Code of Conduct</a></li>
