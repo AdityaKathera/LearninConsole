@@ -34,7 +34,7 @@ export default class NavBarTitle extends Component {
               <nav id="navigation">
                 <ul id="responsive">
                   <li>
-                    <a href="#">Home</a>{" "}
+                    <a href="./">Home</a>{""}
                   </li>
                   <li>
                     <a href="#">Explore</a>
@@ -114,9 +114,12 @@ export default class NavBarTitle extends Component {
                     </ul>
                   </li>
                   <li>
-                    <a href="blog-1.html">About Us</a>{" "}
+                    <a href="/Contact">Contact Us</a>{" "}
                   </li>
                   <li>
+                    <a href="/Price">Pricing</a>{" "}
+                  </li>
+                  {/* <li>
                     <a href="#">Pages</a>
                     <ul className="dropdown-nav">
                       <li>
@@ -129,7 +132,7 @@ export default class NavBarTitle extends Component {
                         <a href="page-term.html">Terms</a>
                       </li>
                       <li>
-                        <a href="page-contact.html">Contact</a>
+                        <a href="ContactUs">Contact Us</a>
                       </li>
                       <li>
                         <a href="#">Account</a>
@@ -165,14 +168,14 @@ export default class NavBarTitle extends Component {
                         </ul>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
                 
 
                 {/* <!-- spacing --> */}
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; 
 
                 {/* <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                   aria-hidden="true">
@@ -225,6 +228,11 @@ export default class NavBarTitle extends Component {
                 {/* <!-- Signup --> */}
                 <a href="/Signup" className="btn btn-soft-light" style={{color:'#3e416d'}}>
                 Sign up
+                </a>
+
+                {/* <!-- Instructor Portal --> */}&nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="/InsPortal">
+                Instructor Portal
                 </a>
 
               {/* <!-- Main Navigation / End --> */}

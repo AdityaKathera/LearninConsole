@@ -25,7 +25,7 @@ export default class InstructorInfo extends Component {
                     <p>
                       Get started with just your name and your email address.
                     </p>
-                    <a href="#" className="btn btn-soft-light">
+                    <a href="/InsReg" className="btn btn-soft-light">
                       Get started
                     </a>
                   </div>

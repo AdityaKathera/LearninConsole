@@ -22,17 +22,26 @@ export default class Signup extends Component {
 
                                     <div>
                                         <div class="uk-form-group">
-                                            <label class="uk-form-label"> Name</label>
+                                            <label class="uk-form-label"> First Name</label>
 
                                             <div class="uk-position-relative w-100">
                                                 <span class="uk-form-icon">
                                                     <i class="icon-feather-user"></i>
                                                 </span>
-                                                <input class="uk-input" type="text" placeholder="Full name" />
+                                                <input class="uk-input" type="text" placeholder="First name" />
+                                            </div>
+                                            <label class="uk-form-label"> Last Name</label>
+
+                                            <div class="uk-position-relative w-100">
+                                                <span class="uk-form-icon">
+                                                    <i class="icon-feather-user"></i>
+                                                </span>
+                                                <input class="uk-input" type="text" placeholder="Last name" />
                                             </div>
 
                                         </div>
                                     </div>
+                                    
                                     <div>
                                         <div class="uk-form-group">
                                             <label class="uk-form-label"> Email</label>

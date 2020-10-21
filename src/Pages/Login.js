@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Footer from './Footer';
 import NavBarTitle from "./NavBarTitle";
+import bg from "../images/bg.jpg";
 
 export default class Login extends Component {
     constructor(){
@@ -14,7 +15,10 @@ export default class Login extends Component {
                  <header className="header header-horizontal header bg-grey uk-light">
                     <NavBarTitle />
                 </header>
-                                {/* <!-- Content
+
+                    <div style={{ backgroundImage: "url(" + + ")", }}>
+                    
+                    {/* <!-- Content
                     ================================================== --> */}
                     <div uk-height-viewport="expand: true" class="uk-flex uk-flex-middle">
                         <div class="uk-width-1-3@m uk-width-1-2@s m-auto"> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> 
@@ -52,11 +56,9 @@ export default class Login extends Component {
 
                                     </div>
 
-
-
                                     <div class="mt-4 uk-flex-middle uk-grid-small" uk-grid>
                                         <div class="uk-width-expand@s">
-                                            <p> Dont have account <a href="/Signup">Sign up</a></p>
+                                            <p> Don't have an account? <a href="/Signup">Sign up</a></p>
                                         </div>
                                         <div class="uk-width-auto@s">
                                             <button type="submit" class="btn btn-default">Login</button>
@@ -66,8 +68,11 @@ export default class Login extends Component {
                                 </form>
                             </div>
                         </div>
+                        
                     </div> <br></br> <br></br> 
+                    </div>
                     <Footer />
+                    
                 </div>
             
         )

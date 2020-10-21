@@ -25,7 +25,7 @@ export default class LearnMore extends Component {
                     as simple <br /> as that -- no payments or credit card
                     information required.{" "}
                   </p>
-                  <a href="#" className="btn btn-soft-light">
+                  <a href="/Signup" className="btn btn-soft-light">
                     Get started
                   </a>
                 </div>

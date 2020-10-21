@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { Carousel } from 'react-responsive-carousel';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import slider1 from "../images/slider1.png";
@@ -54,7 +51,7 @@ export default class Caro extends Component {
                               Learn how to build websites & apps <br /> write a code or start
                               a business
                             </h4>
-                            <a href="#" className="btn btn-default" style={{float:'right'}}>
+                            <a href="/InsReg" className="btn btn-default" style={{float:'right'}}>
                               Register
                             </a>
                           </div>
