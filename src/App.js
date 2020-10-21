@@ -10,7 +10,6 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndCondition from "./Pages/TermsAndCondition";
 import Pricing from "./Pages/Pricing";
 import ContactUs from "./Pages/ContactUs";
-import CourseIntro_aws from "./Pages/CourseIntro_aws";
 import InstructorRegistration from "./Pages/InstructorRegistration";
 import InstructorPortal from "./Pages/InstructorPortal";
 import CourseList from "./Components/CourseList";
@@ -39,7 +38,6 @@ class App extends Component {
               <Route exact path="/courseList" component={CourseList} />
               <Route exact path="/courseCategory" component={CourseCategory} />
               <Route exact path="/latestCourse" component={LatestCourse} />
-              <Route exact path="/courseintro_aws" component={CourseIntro_aws} />
             </Switch>
         </ErrorBoundary>
       </>

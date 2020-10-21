@@ -1,7 +1,34 @@
-To run this react app
+1) Build Scripts:
+
+* Clone the stash using the below command
+
+git clone -b main --single-branch https://github.com/AdityaKathera/LearninConsole.git
+
+* To run this react app
 
 1) npm install
 2) npm start
+
+* Before pushing to github, 
+
+pls run the command and push only if build is successful
+
+npm run build
+
+* IMPORTANT NOTES
+
+During Development, pls pull the latest code before you start working. If u face any pull conflict, pls use stashing method and merge the code before pushing
+
+Do not push any code with errors, bugs or build failure. Such commits will be rejected by remote origin
+
+If u have any doubts with push/pull/merge, please post in whatsapp group
+
+Always update the whatsapp group after pushing the code to github so that ewverybody can pull the latest code
+
+~ Lets Rock. Peace out..!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Project Details:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
