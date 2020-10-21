@@ -126,7 +126,7 @@ export default class NavBarTitle extends Component {
                         <a href="page-pricing.html">Pricing</a>{" "}
                       </li>
                       <li>
-                        <a href="page-Privacy.html">Privacy</a>
+                        <a href="/privacy">Privacy</a>
                       </li>
                       <li>
                         <a href="page-term.html">Terms</a>
