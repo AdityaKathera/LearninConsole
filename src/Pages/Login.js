@@ -2,11 +2,27 @@ import React, { Component } from 'react'
 import Footer from './Footer';
 import NavBarTitle from "./NavBarTitle";
 import bg from "../images/bg.jpg";
+import { loginUser } from '../store/action/login';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-export default class Login extends Component {
-    constructor(){
-        super();
-        console.log('cons')
+class Login extends Component {
+    static getDerivedStateFromProps(nextProps) {
+        const { userDetails } = nextProps;
+        if (userDetails) {
+          console.log(userDetails)
+        }
+    }
+
+    constructor(props){
+        super(props);
+        this.state = {
+            userDetails: false
+        }
+    }
+
+    onLogin(event) {
+        this.props.onUserLogin('123')
     }
     render() {
         return (
@@ -61,7 +77,7 @@ export default class Login extends Component {
                                             <p> Don't have an account? <a href="/Signup">Sign up</a></p>
                                         </div>
                                         <div class="uk-width-auto@s">
-                                            <button type="submit" class="btn btn-default">Login</button>
+                                            <button type="button" class="btn btn-default" onClick={(event) => this.onLogin(event)}>Login</button>
                                         </div>
                                     </div>
 
@@ -78,3 +94,19 @@ export default class Login extends Component {
         )
     }
 }
+
+Login.propTypes = {
+  onUserLogin: PropTypes.func,
+  userDetails: PropTypes.any
+
+};
+
+const mapStateToProps = state => ({
+  userDetails: state.user.userDetails
+})
+
+const mapDispatchToProps = dispatch => ({
+    onUserLogin: userCredentials => dispatch(loginUser(userCredentials))
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
