@@ -4,7 +4,9 @@ import "../assets/css/bootstrap.css";
 import "../assets/css/night-mode.css";
 import "../assets/css/style.css";
 import "../assets/css/framework.css";
-import logo1 from '../images/logo1.png'
+import logo1 from "../images/logo1.png";
+import { Link } from "react-router-dom";
+
 
 export default class NavBarTitle extends Component {
   render() {
@@ -22,148 +24,147 @@ export default class NavBarTitle extends Component {
                   </span>
                 </button>
               </span>
-
               {/* <!-- logo --> */}
-              <a href="./" className="logo">
-                  <img src={logo1} alt="" width="300" height="50"/>
-              </a>
+              <Link to="./" className="logo">
+                <img src={logo1} alt="" width="300" height="50" />
+              </Link>
               {/* <!-- spacing --> */}
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp;
               <nav id="navigation">
                 <ul id="responsive">
                   <li>
-                    <a href="./">Home</a>{""}
+                    <Link to="./">Home</Link>
                   </li>
                   <li>
-                    <a href="#">Explore</a>
+                    <Link to="#">Explore</Link>
                     <ul className="dropdown-nav nav-large nav-courses">
                       <li>
-                        <a href="course-card.html#">
+                        <Link to="course-card.html#">
                           <i
                             className="icon-brand-js-square"
                             style={{ color: "#f7df1e" }}
-                          ></i>{" "}
+                          ></i>
                           JavaScript
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="course-card.html">
+                        <Link to="course-card.html">
                           <i
                             className="icon-brand-node-js"
                             style={{ color: "green" }}
-                          ></i>{" "}
-                          NodeJS{" "}
-                        </a>
+                          ></i>
+                          NodeJS
+                        </Link>
                       </li>
                       <li>
-                        <a href="course-card.html">
+                        <Link to="course-card.html">
                           <i
                             className="icon-brand-angular"
                             style={{ color: "#dd0031" }}
                           ></i>{" "}
                           Angular{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="course-card.html">
+                        <Link to="course-card.html">
                           <i
                             className="icon-brand-css3-alt"
                             style={{ color: "blue" }}
                           ></i>{" "}
                           CSS{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="course-card.html">
+                        <Link to="course-card.html">
                           <i
                             className="icon-brand-html5"
                             style={{ color: "#f0653f" }}
                           ></i>{" "}
                           HTML5{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="course-card.html">
+                        <Link to="course-card.html">
                           <i
                             className="icon-brand-react"
                             style={{ color: "#67fcef" }}
                           ></i>{" "}
                           React{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="course-card.html">
+                        <Link to="course-card.html">
                           <i
                             className="icon-brand-vuejs"
                             style={{ color: "green" }}
                           ></i>{" "}
                           Vue JS{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="course-card.html">
+                        <Link to="course-card.html">
                           <i
                             className="icon-brand-python"
                             style={{ color: "#b1b172" }}
                           ></i>{" "}
                           Python{" "}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/Contact">Contact Us</a>{" "}
+                    <Link to="/Contact">Contact Us</Link>{" "}
                   </li>
                   <li>
-                    <a href="/Price">Pricing</a>{" "}
+                    <Link to="/Price">Pricing</Link>{" "}
                   </li>
                   {/* <li>
-                    <a href="#">Pages</a>
+                    <Link to="#">Pages</Link>
                     <ul className="dropdown-nav">
                       <li>
-                        <a href="page-pricing.html">Pricing</a>{" "}
+                        <Link to="page-pricing.html">Pricing</Link>{" "}
                       </li>
                       <li>
-                        <a href="/privacy">Privacy</a>
+                        <Link to="/privacy">Privacy</Link>
                       </li>
                       <li>
-                        <a href="page-term.html">Terms</a>
+                        <Link to="page-term.html">Terms</Link>
                       </li>
                       <li>
-                        <a href="ContactUs">Contact Us</a>
+                        <Link to="ContactUs">Contact Us</Link>
                       </li>
                       <li>
-                        <a href="#">Account</a>
+                        <Link to="#">Account</Link>
                         <ul className="dropdown-nav">
                           <li>
-                            <a href="page-login.html">login</a>
+                            <Link to="page-login.html">login</Link>
                           </li>
                           <li>
-                            <a href="page-register.html">register</a>
+                            <Link to="page-register.html">register</Link>
                           </li>
                           <li>
-                            <a href="page-simple-login.html">Simple login</a>
+                            <Link to="page-simple-login.html">Simple login</Link>
                           </li>
                           <li>
-                            <a href="page-simple-register.html">
+                            <Link to="page-simple-register.html">
                               Simple register
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="#">Development</a>
+                        <Link to="#">Development</Link>
                         <ul className="dropdown-nav">
                           <li>
-                            <a href="page-elements.html">Elements</a>
+                            <Link to="page-elements.html">Elements</Link>
                           </li>
                           <li>
-                            <a href="page-components.html">Components</a>
+                            <Link to="page-components.html">Components</Link>
                           </li>
                           <li>
-                            <a href="page-icons.html">Icons</a>
+                            <Link to="page-icons.html">Icons</Link>
                           </li>
                         </ul>
                       </li>
@@ -171,13 +172,10 @@ export default class NavBarTitle extends Component {
                   </li> */}
                 </ul>
               </nav>
-                
-
-                {/* <!-- spacing --> */}
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; 
-
-                {/* <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              {/* <!-- spacing --> */}
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              {/* <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                   aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -214,30 +212,37 @@ export default class NavBarTitle extends Component {
                 </div>
 
                 <div class="text-center">
-                  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch
-                    Modal Register Form</a>
+                  <Link to="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch
+                    Modal Register Form</Link>
                 </div> */}
-               
-                {/* <!-- login --> */}
-                
-                <a href="/Login" className="btn btn-soft-light" style={{color:'#3e416d'}}>
+              {/* <!-- login --> */}
+              {/* <Link to="/Login" className="btn btn-soft-light" style={{color:'#3e416d'}}>
                 Log in
-                </a> &nbsp; &nbsp; 
-        
-
-                {/* <!-- Signup --> */}
-                <a href="/Signup" className="btn btn-soft-light" style={{color:'#3e416d'}}>
+                </Link> &nbsp; &nbsp;  */}
+              {/* <Link to="/Login" className="btn btn-soft-light" style={{color:'#3e416d'}}>   </Link> */}
+              <Link
+                className="btn btn-soft-light"
+                style={{ color: "#3e416d" }}
+                to="/login"
+              >
+                Log in
+              </Link>
+              &nbsp; &nbsp;
+              {/* <!-- Signup --> */}
+              <Link
+                to="/Signup"
+                className="btn btn-soft-light"
+                style={{ color: "#3e416d" }}
+              >
                 Sign up
-                </a>
-
-                {/* <!-- Instructor Portal --> */}&nbsp; &nbsp; &nbsp; &nbsp; 
-                <a href="/InsPortal">
+              </Link>
+              {/* <!-- Instructor Portal --> */}&nbsp; &nbsp; &nbsp; &nbsp;
+              <Link to="/InsPortal">
                 Instructor Portal
-                </a>
-
+              </Link>
               {/* <!-- Main Navigation / End --> */}
             </div>
-            
+
             {/* <!--  Right Side Content   --> */}
 
             {/* <div className="uk-navbar-right">
@@ -251,7 +256,7 @@ export default class NavBarTitle extends Component {
                   <button className="btn-searchbox"> </button>
                 </div> */}
 
-                {/* <div
+            {/* <div
                   uk-dropdown="pos: top;mode:click;animation: uk-animation-slide-bottom-small"
                   className="dropdown-search"
                 >
@@ -275,42 +280,42 @@ export default class NavBarTitle extends Component {
                   <ul class="dropdown-search-list">
                     <li class="list-title">Recent Searches</li>
                     <li>
-                      <a href="course-intro.html">
+                      <Link to="course-intro.html">
                         Ultimate Web Designer And Developer Course
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="course-intro.html">
+                      <Link to="course-intro.html">
                         The Complete Ruby on Rails Developer Course{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="course-intro.html">
+                      <Link to="course-intro.html">
                         Bootstrap 4 From Scratch With 5 Real Projects{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       {" "}
-                      <a href="course-intro.html">
+                      <Link to="course-intro.html">
                         The Complete 2020 Web Development Bootcamp{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li class="menu-divider">
                       <li>
-                        <a href="course-intro.html">
+                        <Link to="course-intro.html">
                           Bootstrap 4 From Scratch With 5 Real Projects{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         {" "}
-                        <a href="course-intro.html">
+                        <Link to="course-intro.html">
                           The Complete 2020 Web Development Bootcamp{" "}
-                        </a>
+                        </Link>
                       </li>
                     </li>
                   </ul>
                 </div> */}
-              {/* </div>
+            {/* </div>
             </div> */}
           </nav>
         </div>

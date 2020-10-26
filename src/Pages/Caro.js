@@ -5,6 +5,7 @@ import slider1 from "../images/slider1.png";
 import slider2 from "../images/slider2.jpg";
 import slider3 from "../images/slider3.jpg";
 import { Carousel } from 'antd';
+import { Link } from "react-router-dom";
 
 export default class Caro extends Component {
   render() {
@@ -27,9 +28,9 @@ export default class Caro extends Component {
                           {" "}
                           Start Learning In Your Native Language 
                         </h4>
-                        <a href="#" className="btn btn-default">
+                        <Link href="#" className="btn btn-default">
                           Free Trail
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -47,13 +48,12 @@ export default class Caro extends Component {
                               Become an Instructor
                             </h1>
                             <h4 className="my-lg-4" align="right">
-                              {" "}
                               Learn how to build websites & apps <br /> write a code or start
                               a business
                             </h4>
-                            <a href="/InsReg" className="btn btn-default" style={{float:'right'}}>
+                            <Link href="/InsReg" className="btn btn-default" style={{float:'right'}}>
                               Register
-                            </a>
+                            </Link>
                           </div>
                         </div>
                   </div>

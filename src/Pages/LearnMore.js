@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import learn_more_img from "../images/main_left.png";
 import { Row, Col } from "antd";
+import { Link } from "react-router-dom";
 export default class LearnMore extends Component {
   render() {
     return (
@@ -25,9 +26,9 @@ export default class LearnMore extends Component {
                     as simple <br /> as that -- no payments or credit card
                     information required.{" "}
                   </p>
-                  <a href="/Signup" className="btn btn-soft-light">
+                  <Link href="/Signup" className="btn btn-soft-light">
                     Get started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

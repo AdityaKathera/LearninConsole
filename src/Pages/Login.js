@@ -5,6 +5,7 @@ import bg from "../images/bg.jpg";
 import { loginUser } from '../store/action/login';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 
 class Login extends Component {
     static getDerivedStateFromProps(nextProps) {
@@ -74,7 +75,7 @@ class Login extends Component {
 
                                     <div class="mt-4 uk-flex-middle uk-grid-small" uk-grid>
                                         <div class="uk-width-expand@s">
-                                            <p> Don't have an account? <a href="/Signup">Sign up</a></p>
+                                            <p> Don't have an account? <Link href="/Signup">Sign up</Link></p>
                                         </div>
                                         <div class="uk-width-auto@s">
                                             <button type="button" class="btn btn-default" onClick={(event) => this.onLogin(event)}>Login</button>

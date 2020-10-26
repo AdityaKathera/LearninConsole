@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Footer from './Footer';
 import NavBarTitle from "./NavBarTitle";
 
+import { Link } from "react-router-dom";
+
 export default class PrivacyPolicy extends Component {
     render() {
         return (
@@ -21,12 +23,12 @@ export default class PrivacyPolicy extends Component {
                         <nav class="responsive-tab style-3"
                             uk-sticky="top:100 ; offset:120; media:@m ;bottom:true; animation: uk-animation-slide-top">
                             <ul>
-                                <li class="uk-active"><a href="#"> Privacy </a></li>
-                                <li><a href="#"> Careers</a></li>
-                                <li><a href="#"> Terms &amp; Condition</a></li>
-                                <li><a href="#"> Privacy</a></li>
-                                <li><a href="#"> Cookies</a></li>
-                                <li><a href="#"> Code of Conduct</a></li>
+                                <li class="uk-active"><Link href="#"> Privacy </Link></li>
+                                <li><Link href="#"> Careers</Link></li>
+                                <li><Link href="#"> Terms &amp; Condition</Link></li>
+                                <li><Link href="#"> Privacy</Link></li>
+                                <li><Link href="#"> Cookies</Link></li>
+                                <li><Link href="#"> Code of Conduct</Link></li>
                             </ul>
                         </nav>
 

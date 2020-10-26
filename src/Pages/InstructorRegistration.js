@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Footer from './Footer';
 import NavBarTitle from "./NavBarTitle";
 import instructor from "../images/instructor.jpg";
-
+import { Link } from "react-router-dom";
 export default class InstructorRegistration extends Component {
     render() {
         return (
@@ -11,7 +11,6 @@ export default class InstructorRegistration extends Component {
                 <header className="header header-horizontal header bg-grey uk-light">
                     <NavBarTitle />
                 </header><br></br><br></br>
-                        
                     <div style={{backgroundColor:'white'}}>
                         <div
                         className="home-hero"
@@ -125,7 +124,7 @@ export default class InstructorRegistration extends Component {
                                             <div class="uk-width-auto@s">
                                             <input type="submit" class="btn btn-default" value="Register"></input> &nbsp; &nbsp;
                                                 Already have an account? &nbsp; &nbsp;
-                                                <a href="/InsPortal">Instructor Login</a>
+                                                <Link to="/InsPortal">Instructor Login</Link>
                                             </div>
                                         </div>
                                     </div>

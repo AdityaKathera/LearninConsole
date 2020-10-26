@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import instructorImage from "../images/main_right.png";
-
+import { Link } from "react-router-dom";
 export default class InstructorInfo extends Component {
   render() {
     return (
@@ -25,9 +25,9 @@ export default class InstructorInfo extends Component {
                     <p>
                       Get started with just your name and your email address.
                     </p>
-                    <a href="/InsReg" className="btn btn-soft-light">
+                    <Link href="/InsReg" className="btn btn-soft-light">
                       Get started
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <img src={instructorImage} alt="" align="right" />

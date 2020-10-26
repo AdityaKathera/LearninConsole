@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Footer from './Footer';
 import NavBarTitle from "./NavBarTitle";
 
+import { Link } from "react-router-dom";
 export default class Signup extends Component {
     render() {
         return (
@@ -89,7 +90,7 @@ export default class Signup extends Component {
                                             <div class="uk-width-auto@s">
                                             <input type="submit" class="btn btn-default" value="Get Started"></input> &nbsp; &nbsp;
                                                 Already have an account? &nbsp; &nbsp;
-                                                <a href="/Login">Login</a>
+                                                <Link href="/Login">Login</Link>
                                             </div>
                                         </div>
                                     </div>
